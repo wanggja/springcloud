@@ -8,13 +8,13 @@ spring:
       server:
         git:
           uri: https://github.com/wanggja/springcloud.git
-          search-paths: config
+          searchPaths: config
           username: wanggja
           password: gaoJIAN123456
-        default-label: master
+        label: master
 
 eureka:
   client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
 

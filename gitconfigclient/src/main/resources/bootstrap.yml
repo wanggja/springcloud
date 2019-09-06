@@ -3,12 +3,11 @@ spring:
     config:
       name: configclient
       label: master
-      profile: dev
       discovery:
         enabled: true
-        service-id: gitconfigserver
+        serviceId: gitconfigserver
 
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:8762/eureka/
