@@ -18,6 +18,7 @@
         <module name="configserver" />
         <module name="eurekaserver" />
         <module name="consumer" />
+        <module name="gitconfigclient" />
       </profile>
     </annotationProcessing>
   </component>
@@ -27,6 +28,7 @@
       <module name="consumer" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="gitconfigclient" options="-parameters" />
       <module name="gitconfigserver" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="nativeconfigclient" options="-parameters" />
