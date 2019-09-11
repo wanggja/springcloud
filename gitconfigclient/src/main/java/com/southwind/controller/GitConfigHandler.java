@@ -17,9 +17,12 @@ public class GitConfigHandler {
     @Value("${profile}")
     private String profile;
 
+    @Value("${server.port}")
+    private String port;
+
 
     @GetMapping("/index")
     public String index() {
-        return this.profile;
+        return this.profile + "-----" + this.port;
     }
 }
