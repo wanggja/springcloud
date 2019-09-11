@@ -11,7 +11,7 @@ spring:
           username: wanggja
           password: gaoJIAN123456
           search-paths: config
-#          default-label: master
+          default-label: master
 eureka:
   client:
     serviceUrl:

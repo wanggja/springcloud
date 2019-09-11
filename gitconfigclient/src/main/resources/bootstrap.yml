@@ -1,11 +1,10 @@
 spring:
   cloud:
     config:
-      name: configclient
+      uri: http://locahost:8888
       label: master
-      discovery:
-        enabled: true
-        serviceId: gitconfigserver
+  application:
+    name: config-client
 
 eureka:
   client:
