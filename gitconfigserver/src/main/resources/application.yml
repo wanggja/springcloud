@@ -7,12 +7,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wanggja/springcloud.git
-          searchPaths: config
+          uri: https://github.com/wanggja/springcloud
           username: wanggja
           password: gaoJIAN123456
-        label: master
-
+          search-paths: config
+#          default-label: master
 eureka:
   client:
     serviceUrl:
