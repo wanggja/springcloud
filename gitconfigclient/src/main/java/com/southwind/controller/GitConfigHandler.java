@@ -14,14 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/git")
 public class GitConfigHandler {
 
-    @Value("${server.port}")
-    private String port;
+    @Value("${profile}")
+    private String profile;
 
-    @Value("${spring.application.name}")
-    private String applicationName;
 
     @GetMapping("/index")
     public String index() {
-        return this.port + "-------" + this.applicationName;
+        return this.profile;
     }
 }
