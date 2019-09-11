@@ -3,6 +3,7 @@ spring:
     config:
       uri: http://locahost:8888
       label: master
+      profile: dev
   application:
     name: config-client
 

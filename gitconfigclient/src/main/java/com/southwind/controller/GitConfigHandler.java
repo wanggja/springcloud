@@ -17,8 +17,11 @@ public class GitConfigHandler {
     @Value("${server.port}")
     private String port;
 
+    @Value("${spring.application.name}")
+    private String applicationName;
+
     @GetMapping("/index")
     public String index() {
-        return this.port;
+        return this.port + "-------" + this.applicationName;
     }
 }
