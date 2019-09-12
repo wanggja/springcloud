@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/wanggja/springcloud
-          username: wanggja
-          password: gaoJIAN123456
+          username: #
+          password: #
           search-paths: config
 eureka:
   client:
